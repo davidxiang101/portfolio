@@ -23,12 +23,6 @@
   }
 } 
 
-@font-face {
-  font-family: 'CalSans';
-  src: url('/fonts/CalSans-SemiBold.ttf') format('truetype');
-  font-display: swap;
-}
-
 body {
   color: rgb(var(--foreground-rgb));
   background: linear-gradient(
