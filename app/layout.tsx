@@ -1,5 +1,5 @@
 import './globals.css'
-import { Inter } from 'next/font/google'
+import { Inter, Bowlby_One_SC } from 'next/font/google'
 import LocalFont from "next/font/local";
 
 export const metadata = {
@@ -23,10 +23,11 @@ const inter = Inter({
 	variable: "--font-inter",
 });
 
-const calSans = LocalFont({
-	src: "../public/fonts/CalSans-SemiBold.ttf",
-	variable: "--font-calsans",
-});
+const bowlby = Bowlby_One_SC({
+  subsets: ["latin"],
+  weight: "400",
+  variable: "--font-bowlby",
+})
 
 export default function RootLayout({
   children,
@@ -34,7 +35,7 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <html lang="en" className={[inter.variable, calSans.variable].join(" ")}>
+    <html lang="en" className={[inter.variable, bowlby.variable].join(" ")}>
       <body>{children}</body>
     </html>
   )
