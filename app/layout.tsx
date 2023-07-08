@@ -1,5 +1,5 @@
 import './globals.css'
-import { Inter, Bowlby_One_SC } from 'next/font/google'
+import { Inter, Source_Code_Pro } from 'next/font/google'
 import LocalFont from "next/font/local";
 
 export const metadata = {
@@ -23,10 +23,10 @@ const inter = Inter({
 	variable: "--font-inter",
 });
 
-const bowlby = Bowlby_One_SC({
+const bowlby = Source_Code_Pro({
   subsets: ["latin"],
   weight: "400",
-  variable: "--font-bowlby",
+  variable: "--font-scp",
 })
 
 export default function RootLayout({

@@ -30,7 +30,7 @@ module.exports = {
 			},
 			fontFamily: {
 				sans: ["var(--font-inter)", ...defaultTheme.fontFamily.sans],
-				display: ["var(--font-bowlby)"],
+				display: ["var(--font-scp)"],
 			},
 			backgroundImage: {
 				"gradient-radial":
