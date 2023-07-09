@@ -49,7 +49,7 @@ export default function Glitch() {
 	}, [textIndex]);
 
 	return (
-		<h2 className="text-md font-display text-zinc-500 ">
+		<h2 className="text-md font-display duration-500 text-zinc-500 hover:text-zinc-300">
 			Check out {dataValue}
 		</h2>
 	);
