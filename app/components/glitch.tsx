@@ -41,7 +41,7 @@ export default function Glitch() {
 
 
 
-		}, 3500);
+		}, 2500);
 
 		return () => {
 			clearInterval(textChangeEffect);
