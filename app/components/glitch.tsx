@@ -3,7 +3,6 @@
 import React, { useEffect, useState } from 'react';
 
 export default function Glitch() {
-	const [glitch, setGlitch] = useState(false);
 	const texts = ['what I\'m buillding', 'my newest projects'];
 	const [dataValue, setDataValue] = useState(texts[0]);
 	const [textIndex, setTextIndex] = useState(1);
@@ -42,7 +41,7 @@ export default function Glitch() {
 
 
 
-		}, 5000);
+		}, 3500);
 
 		return () => {
 			clearInterval(textChangeEffect);

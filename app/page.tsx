@@ -1,12 +1,12 @@
 import React from 'react';
 import Splash from './components/splash';
-import ExperiencesList from './components/experiencesList';
+import ExperiencesPage from './components/experiencePage';
 
 const Home: React.FC = () => {
 	return (
 		<>
 			<Splash />
-			<ExperiencesList />
+			<ExperiencesPage />
 		</>
 	);
 };

@@ -2,20 +2,34 @@ import { ExperienceProps } from '../components/types';
 
 export const experiences: ExperienceProps[] = [
 	{
-		startDate: 'June 2020',
-		endDate: 'August 2020',
+		startDate: 'May 2023',
+		endDate: 'August 2023',
 		role: 'Software Engineering Intern',
-		company: 'Company A',
+		company: 'Epic',
 		description: 'I worked on developing the frontend of the application using React.',
-		tags: ['React', 'JavaScript', 'CSS']
+		tags: ['.NET', 'Vue', 'Azure', 'typescript', 'javascript', 'c#', 'SQL']
 	},
 	{
-		startDate: 'September 2020',
-		endDate: 'December 2020',
-		role: 'Backend Developer',
-		company: 'Company B',
+		startDate: 'May 2022',
+		endDate: 'August 2023',
+		role: 'Software Engineering Intern',
+		company: 'East Point Energy',
 		description: 'I developed RESTful APIs using Express and Node.js.',
-		tags: ['Node.js', 'Express', 'MongoDB']
+		tags: ['Python', 'Selenium', 'GIS']
 	},
-	// Add more experiences as needed
-];
+	{
+		startDate: 'January 2023',
+		endDate: 'Present',
+		role: 'Undergraduate Researcher',
+		company: 'ORCL Lab',
+		description: 'I developed RESTful APIs using Express and Node.js.',
+		tags: ['Unity', 'C#', 'VR']
+	},
+	{
+		startDate: 'May 2023',
+		endDate: 'Present',
+		role: 'Undergraduate Researcher',
+		company: 'Cavalier Autonomous Racing',
+		description: 'I developed RESTful APIs using Express and Node.js.',
+		tags: ['Unity', 'C#', 'VR']
+	},];
