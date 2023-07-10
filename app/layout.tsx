@@ -1,6 +1,5 @@
 import './globals.css'
-import { Inter, Source_Code_Pro } from 'next/font/google'
-import LocalFont from "next/font/local";
+import { Inter, Comfortaa, Anonymous_Pro } from 'next/font/google'
 
 export const metadata = {
   title: 'David Xiang',
@@ -23,10 +22,16 @@ const inter = Inter({
 	variable: "--font-inter",
 });
 
-const bowlby = Source_Code_Pro({
+const anonymous = Anonymous_Pro({
   subsets: ["latin"],
   weight: "400",
-  variable: "--font-scp",
+  variable: "--font-anonymous-pro",
+})
+
+const comfortaa = Comfortaa({
+  subsets: ["latin"],
+  weight: "400",
+  variable: "--font-comfortaa",
 })
 
 export default function RootLayout({
@@ -35,7 +40,7 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <html lang="en" className={[inter.variable, bowlby.variable].join(" ")}>
+    <html lang="en" className={[inter.variable, anonymous.variable, comfortaa.variable].join(" ")}>
       <body>{children}</body>
     </html>
   )

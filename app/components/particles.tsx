@@ -13,7 +13,7 @@ interface ParticlesProps {
 
 export default function Particles({
 	className = "",
-	quantity = 100,
+	quantity = 80,
 	staticity = 50,
 	ease = 50,
 	refresh = false,
@@ -95,7 +95,7 @@ export default function Particles({
 
 	const circleParams = (): Circle => {
 		const x = Math.floor(Math.random() * canvasSize.current.w);
-		const y = Math.floor(Math.random() * canvasSize.current.h);
+		const y = Math.floor((1 - Math.sqrt(Math.random())) * canvasSize.current.h);
 		const translateX = 0;
 		const translateY = 0;
 		const size = Math.floor(Math.random() * 2) + 0.5;

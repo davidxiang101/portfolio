@@ -3,7 +3,7 @@ import Link from 'next/link';
 
 const Footer: React.FC = () => {
     return (
-        <footer className="flex flex-col items-center justify-center w-full text-center p-8 bg-transparent text-sm">
+        <footer className="flex flex-col items-center justify-center w-full text-center p-8 bg-sky-950 text-sm">
             <p className="w-1/2 text-gray-500 dark:text-gray-300">
                 Thanks for checking out my portfolio. This project was designed using
                 {" "}
@@ -26,8 +26,8 @@ const Footer: React.FC = () => {
                 {" "}
                 <Link href="https://tailwindcss.com/" className="text-blue-500 hover:underline" target="_blank" rel="noopener noreferrer">
                     Tailwind CSS
-                </Link>, 
-                deployed using 
+                </Link>. 
+                Deployed and hosted using 
                 {" "}
                 <Link href="https://vercel.com/" className="text-blue-500 hover:underline" target="_blank" rel="noopener noreferrer">
                     Vercel

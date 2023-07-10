@@ -3,7 +3,7 @@
 import React, { useEffect, useState } from 'react';
 
 export default function Glitch() {
-	const texts = ['what I\'m buillding', 'my newest projects'];
+	const texts = ['Read about my new projects!', 'Check out my racing AI sim!', 'See what I\'ve been building'];
 	const [dataValue, setDataValue] = useState(texts[0]);
 	const [textIndex, setTextIndex] = useState(1);
 	const letters = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
@@ -41,7 +41,7 @@ export default function Glitch() {
 
 
 
-		}, 2500);
+		}, 3000);
 
 		return () => {
 			clearInterval(textChangeEffect);
@@ -49,8 +49,8 @@ export default function Glitch() {
 	}, [textIndex]);
 
 	return (
-		<h2 className="text-md font-display duration-500 text-zinc-500 hover:text-zinc-300">
-			Check out {dataValue}
+		<h2 className="text-md font-mono duration-500 text-zinc-500 hover:text-zinc-300 text-lg">
+			{dataValue}
 		</h2>
 	);
 }
