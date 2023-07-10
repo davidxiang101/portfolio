@@ -10,7 +10,7 @@ const Experience: React.FC<ExperienceProps> = ({startDate, endDate, role, compan
 			<p>{description}</p>
 			<div className="flex flex-wrap">
 				{tags.map((tag, index) => (
-					<span key={index} className="text-sm text-white bg-blue-500 px-2 py-1 m-1 rounded">
+					<span key={index} className="text-sm text-white bg-purple-600 px-2 py-1 m-1 rounded">
 						{tag}
 					</span>
 				))}
