@@ -1,12 +1,25 @@
 import React from "react";
 import Particles from "./particles";
 import Glitch from "./glitch";
-import Link from "next/link";
 
-const navigation = [
-	{ name: "Projects", href: "/projects" },
-	{ name: "Contact", href: "/contact" },
-];
+const scrollToElement = (id: string) => {
+    const element = document.getElementById(id);
+    const offsetTop = element ? element.offsetTop : 0;
+    
+    window.scrollTo({
+      top: offsetTop - 60,
+      behavior: 'smooth',
+    });
+};
+
+const onBtnClick = (e: React.MouseEvent<HTMLButtonElement>) => {
+    e.preventDefault();
+    const goto = e.currentTarget.getAttribute('data-goto');
+    setTimeout(() => {
+		scrollToElement(goto || '');
+    }, 100);
+};
+
 
 const Splash: React.FC = () => {
 	return (
@@ -24,6 +37,7 @@ const Splash: React.FC = () => {
 			<div className="my-16 text-center animate-fade-in">
 				<Glitch></Glitch>
 			</div>
+
 		</div>
 	);
 };
