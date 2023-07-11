@@ -3,7 +3,7 @@
 import React, { useEffect, useState } from 'react';
 
 export default function Glitch() {
-	const texts = ['Read about my new projects!', 'Check out my racing AI sim!', 'See what I&aposve been building'];
+	const texts = ["Read about my new projects!", "Check out my racing AI sim!", "See what I've been building"];
 	const [dataValue, setDataValue] = useState(texts[0]);
 	const [textIndex, setTextIndex] = useState(1);
 	const letters = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
