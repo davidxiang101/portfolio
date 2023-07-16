@@ -7,29 +7,29 @@ const Footer: React.FC = () => {
             <p className="w-1/2 text-gray-500 dark:text-gray-300">
                 Thanks for checking out my portfolio. This project was designed using
                 {" "}
-                <Link href="https://www.figma.com/" className="text-indigo-600 hover:underline" target="_blank" rel="noopener noreferrer">
+                <Link href="https://www.figma.com/" className="text-violet-600 hover:underline" target="_blank" rel="noopener noreferrer">
                     Figma
                 </Link>
                 {" "}
                 and coded in
                 {" "}
-                <Link href="https://code.visualstudio.com/" className="text-indigo-600 hover:underline" target="_blank" rel="noopener noreferrer">
+                <Link href="https://code.visualstudio.com/" className="text-violet-600 hover:underline" target="_blank" rel="noopener noreferrer">
                     Visual Studio Code
                 </Link>
                 . Built with love,
                 {" "}
-                <Link href="https://nextjs.org/" className="text-indigo-600 hover:underline" target="_blank" rel="noopener noreferrer">
+                <Link href="https://nextjs.org/" className="text-violet-600 hover:underline" target="_blank" rel="noopener noreferrer">
                     Next.js
                 </Link>
                 {" "}
                 and
                 {" "}
-                <Link href="https://tailwindcss.com/" className="text-indigo-600 hover:underline" target="_blank" rel="noopener noreferrer">
+                <Link href="https://tailwindcss.com/" className="text-violet-600 hover:underline" target="_blank" rel="noopener noreferrer">
                     Tailwind CSS
                 </Link>.
                 Deployed and hosted using
                 {" "}
-                <Link href="https://vercel.com/" className="text-indigo-600 hover:underline" target="_blank" rel="noopener noreferrer">
+                <Link href="https://vercel.com/" className="text-violet-600 hover:underline" target="_blank" rel="noopener noreferrer">
                     Vercel
                 </Link>.
             </p>

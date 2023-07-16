@@ -34,18 +34,25 @@ const SideBar: React.FC = () => {
 
             <nav className="mt-4 mb-12">
                 <ul className="space-y-2 font-display text-2xl">
-                    <li className={activeSection === 'about' ? 'text-indigo-500' : ''}>About</li>
-                    <li className={activeSection === 'projects' ? 'text-indigo-500' : ''}>Projects</li>
-                    <li className={activeSection === 'experience' ? 'text-indigo-500' : ''}>Experience</li>
+                    <li>
+                        <a href="#about" className={activeSection === 'about' ? 'text-violet-500' : ''}>About</a>
+                    </li>
+                    <li>
+                        <a href="#projects" className={activeSection === 'projects' ? 'text-violet-500' : ''}>Projects</a>
+                    </li>
+                    <li>
+                        <a href="#experience" className={activeSection === 'experience' ? 'text-violet-500' : ''}>Experience</a>
+                    </li>
                 </ul>
             </nav>
 
+
             <div className="flex space-x-6">
                 <a href="mailto:mwd4wm@virginia.edu">
-                    <FaEnvelope className="hover:text-zinc-500" size={30} />
+                    <FaEnvelope className="hover:text-violet-500" size={30} />
                 </a>
                 <a href="https://www.linkedin.com/in/david-xiang-4891371a6/" target="_blank" rel="noreferrer">
-                    <FaLinkedin className="hover:text-zinc-500" size={30} />
+                    <FaLinkedin className="hover:text-violet-500" size={30} />
                 </a>
                 <a href="https://github.com/davidxiang101" target="_blank" rel="noreferrer">
                     <FaGithub className="hover:text-zinc-500" size={30} />
