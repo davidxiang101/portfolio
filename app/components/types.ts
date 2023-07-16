@@ -3,6 +3,7 @@ export interface ExperienceProps {
     endDate: string;
     role: string;
     company: string;
+    link: string;
     description: string;
     tags: string[];
 }
