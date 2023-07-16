@@ -7,3 +7,10 @@ export interface ExperienceProps {
     description: string;
     tags: string[];
 }
+
+export interface ProjectProps {
+    name: string;
+    description: string;
+    link: string;
+    tags: string[];
+}

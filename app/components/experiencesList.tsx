@@ -4,8 +4,7 @@ import { experiences } from '../data/experiences';
 
 const ExperiencesList: React.FC = () => {
 	return (
-		<div className="flex flex-col items-center justify-center">
-			<h1 className="text-2xl font-display my-12">Experiences</h1>
+		<div id="experience" className="mt-12 flex flex-col items-center justify-center">
 			{experiences.map((experience, index) => (
 				<Experience key={index} {...experience} />
 			))}

@@ -11,10 +11,6 @@ function MyApp({ Component, pageProps }: AppProps) {
             -webkit-font-smoothing: antialiased;
             -moz-osx-font-smoothing: grayscale;
           }
-          ::selection {
-            background-color: #4FD1C5;
-            color: #1A202C;
-          }
         `}</style>
       </Head>
       <Component {...pageProps} />

@@ -1,19 +1,54 @@
-import React from 'react';
+"use client";
+
+import React, { useState, useEffect } from 'react';
 import { FaEnvelope, FaLinkedin, FaGithub } from 'react-icons/fa';
 
 const SideBar: React.FC = () => {
+    const [activeSection, setActiveSection] = useState<string | null>(null);
+
+    const checkScroll = () => {
+        const aboutElement = document.getElementById('about');
+        const projectsElement = document.getElementById('projects');
+        const experienceElement = document.getElementById('experience');
+
+        const aboutTop = aboutElement ? aboutElement.getBoundingClientRect().top : 0;
+        const projectsTop = projectsElement ? projectsElement.getBoundingClientRect().top : 0;
+        const experienceTop = experienceElement ? experienceElement.getBoundingClientRect().top : 0;
+
+        if (aboutTop >= 0) {
+            setActiveSection('about');
+        } else if (projectsTop >= 0) {
+            setActiveSection('projects');
+        } else if (experienceTop >= 0) {
+            setActiveSection('experience');
+        }
+    };
+
+    useEffect(() => {
+        window.addEventListener('scroll', checkScroll);
+        return () => window.removeEventListener('scroll', checkScroll);
+    }, []);
+
     return (
         <div className="flex flex-col items-center justify-center sticky top-0 w-3/5 h-screen p-4 overflow-auto">
-            <h2 className="mb-4 text-2xl font-display">Contact Information</h2>
+
+            <nav className="mt-4 mb-12">
+                <ul className="space-y-2 font-display text-2xl">
+                    <li className={activeSection === 'about' ? 'text-indigo-500' : ''}>About</li>
+                    <li className={activeSection === 'projects' ? 'text-indigo-500' : ''}>Projects</li>
+                    <li className={activeSection === 'experience' ? 'text-indigo-500' : ''}>Experience</li>
+                </ul>
+            </nav>
+
             <div className="flex space-x-6">
                 <a href="mailto:mwd4wm@virginia.edu">
-                    <FaEnvelope className="hover:text-slate-500" size={30}/>
+                    <FaEnvelope className="hover:text-zinc-500" size={30} />
                 </a>
                 <a href="https://www.linkedin.com/in/david-xiang-4891371a6/" target="_blank" rel="noreferrer">
-                    <FaLinkedin className="hover:text-slate-500" size={30}/>
+                    <FaLinkedin className="hover:text-zinc-500" size={30} />
                 </a>
                 <a href="https://github.com/davidxiang101" target="_blank" rel="noreferrer">
-                    <FaGithub className="hover:text-slate-500" size={30}/>
+                    <FaGithub className="hover:text-zinc-500" size={30} />
                 </a>
             </div>
         </div>

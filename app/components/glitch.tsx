@@ -30,7 +30,7 @@ export default function Glitch() {
 					}
 				})
 					.join("");
-				iteration += 1 / 3;
+				iteration += 1 / 2;
 				if (iteration >= Math.max(text.length, texts[textIndex].length)) {
 					clearInterval(textChangeTimer);
 					// Cycle to next text
@@ -49,7 +49,7 @@ export default function Glitch() {
 	}, [textIndex]);
 
 	return (
-		<h2 className="text-md font-mono duration-500 text-zinc-500 hover:text-zinc-300 text-lg">
+		<h2 className="text-md font-mono duration-500 text-zinc-400 hover:text-zinc-200 text-xl">
 			{dataValue}
 		</h2>
 	);

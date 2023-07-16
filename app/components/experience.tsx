@@ -8,8 +8,8 @@ const Experience: React.FC<ExperienceProps> = ({ startDate, endDate, role, compa
 			<div className="z-10 col-span-5">
 				<h3 className="font-medium leading-snug text-slate-200">
 					<div>
-						<a className="text-xl text-slate-200 hover:text-purple-500
-                focus-visible:text-purple-500 group/link text-base" target="_blank"
+						<a className="text-xl text-slate-200 hover:text-indigo-500
+                focus-visible:text-indigo-500 group/link text-base" target="_blank"
 							rel="noopener noreferrer" href={link}>{company}</a>
 					</div>
 					<div>
@@ -19,7 +19,7 @@ const Experience: React.FC<ExperienceProps> = ({ startDate, endDate, role, compa
 				<p className="mt-2 text-sm leading-normal text-slate-500">{description}</p>
 				<div className="flex flex-wrap">
 					{tags.map((tag, index) => (
-						<span key={index} className="text-sm text-white bg-purple-400/20 text-purple-500 px-2 py-1 mr-1 mt-2 rounded-full">
+						<span key={index} className="text-sm text-white bg-indigo-400/20 text-indigo-500 px-2 py-1 mr-1 mt-2 rounded-full">
 							{tag}
 						</span>
 					))}
