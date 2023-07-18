@@ -6,7 +6,14 @@
   --foreground-rgb: 255, 255, 255;
   --background-start-rgb: 0, 0, 0;
   --background-end-rgb: 0, 0, 0;
+  --g1: #7c3aed;
+  /* Violet */
+  --g2: #2563eb;
+  /* Blue */
+  --g3: #0ea5e9;
+  /* Sky */
 }
+
 
 @layer base {
   .text-edge-outline {
@@ -35,4 +42,27 @@ body {
   background: linear-gradient(to bottom,
       transparent,
       rgb(var(--background-end-rgb))) rgb(var(--background-start-rgb));
+}
+
+.card:hover:before {
+  background-position: 100% 100%;
+  transform: scale(1.1, 1.05);
+}
+
+.card:before {
+  background: linear-gradient(130deg,
+      transparent 0% 33%,
+      var(--g1) 66%,
+      var(--g2) 83.5%,
+      var(--g3) 100%);
+  background-position: 0% 0%;
+  background-size: 300% 300%;
+  content: "";
+  height: 100%;
+  left: 0;
+  top: 0;
+  z-index: 1;
+  position: absolute;
+  transition: background-position 500ms ease, transform 500ms ease;
+  width: 100%;
 }

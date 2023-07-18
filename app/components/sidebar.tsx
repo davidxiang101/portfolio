@@ -32,7 +32,7 @@ const SideBar: React.FC = () => {
     return (
         <div className="flex flex-col items-center justify-center sticky top-0 w-3/5 h-screen p-4 overflow-auto">
 
-            <nav className="mt-4 mb-12">
+            <nav className="mt-4 mb-16">
                 <ul className="space-y-2 font-display text-2xl">
                     <li>
                         <a href="#about" className={activeSection === 'about' ? 'text-violet-500' : ''}>About</a>
