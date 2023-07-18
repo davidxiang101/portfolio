@@ -7,7 +7,7 @@ const ProjectsList: React.FC = () => {
     return (
         <div id="projects" className="flex flex-col items-center">
             {projects.map((project: ProjectProps, index: number) => (
-                <div key={index} className="w-1/2 mx-auto">
+                <div key={index} className="w-1/2 mx-auto my-6">
                     <Project
                         name={project.name}
                         description={project.description}
