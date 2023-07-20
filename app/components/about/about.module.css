@@ -1,0 +1,27 @@
+.highlight-minecraft:hover {
+    cursor: url('/path/to/minecraft-cursor.png'), auto;
+}
+
+.highlight-mods:hover {
+    cursor: url('/path/to/mods-cursor.png'), auto;
+}
+
+.highlight-coding:hover {
+    cursor: url('/path/to/coding-cursor.png'), auto;
+}
+
+.highlight-vr:hover {
+    cursor: url('/path/to/vr-cursor.png'), auto;
+}
+
+.highlight-ai:hover {
+    cursor: url('/path/to/ai-cursor.png'), auto;
+}
+
+.highlight-webdev:hover {
+    cursor: url('/path/to/webdev-cursor.png'), auto;
+}
+
+.highlight-f1:hover {
+    cursor: url('/path/to/f1-cursor.png'), auto;
+}

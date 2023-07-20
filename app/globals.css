@@ -52,8 +52,8 @@ body {
 .card:before {
   background: linear-gradient(130deg,
       transparent 0% 33%,
-      var(--g1) 66%,
-      var(--g2) 83.5%,
+      var(--g1) 70%,
+      var(--g2) 87%,
       var(--g3) 100%);
   background-position: 0% 0%;
   background-size: 300% 300%;

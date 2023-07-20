@@ -1,4 +1,4 @@
-import { ExperienceProps } from '../components/types';
+import { ExperienceProps } from '../components/utils/types';
 
 export const experiences: ExperienceProps[] = [
 	{

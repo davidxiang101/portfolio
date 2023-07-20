@@ -1,5 +1,5 @@
 import React from 'react';
-import { ExperienceProps } from './types';
+import { ExperienceProps } from '../utils/types';
 
 const Experience: React.FC<ExperienceProps> = ({ startDate, endDate, role, company, link, description, tags }) => {
 	return (

@@ -1,11 +1,11 @@
 import React from 'react';
-import { ProjectProps } from '../components/types';
+import { ProjectProps } from '../utils/types';
 import Project from './project';
-import { projects } from '../data/projects';
+import { projects } from '../../data/projects';
 
 const ProjectsList: React.FC = () => {
     return (
-        <div id="projects" className="my-64 flex flex-col items-center">
+        <div id="projects" className="flex flex-col items-center">
             {projects.map((project: ProjectProps, index: number) => (
                 <div key={index} className="w-1/2 mx-auto my-6">
                     <Project

@@ -1,10 +1,10 @@
 import React from 'react';
 import Experience from './experience';
-import { experiences } from '../data/experiences';
+import { experiences } from '../../data/experiences';
 
 const ExperiencesList: React.FC = () => {
 	return (
-		<div id="experience" className="my-12 flex flex-col items-center justify-center">
+		<div id="experience" className="my-64 flex flex-col items-center justify-center">
 			{experiences.map((experience, index) => (
 				<Experience key={index} {...experience} />
 			))}

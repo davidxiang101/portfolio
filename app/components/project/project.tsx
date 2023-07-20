@@ -1,5 +1,5 @@
 import React, { PropsWithChildren } from 'react';
-import { ProjectProps } from './types';
+import { ProjectProps } from '../utils/types';
 
 const Project: React.FC<ProjectProps> = ({ name, description, link }) => (
     <div className="card flex border relative border-violet-500 shadow-lg px-4 py-[30%] justify-center">

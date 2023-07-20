@@ -1,9 +1,8 @@
 import React from 'react';
-import SideBar from './sidebar';
+import SideBar from '../sidebar';
 import ExperiencesList from './experiencesList';
-import About from './about';
-import Project from './project';
-import ProjectsList from './projectsList';
+import About from '../about/about';
+import ProjectsList from '../project/projectsList';
 
 const ExperiencesPage: React.FC = () => {
     return (
@@ -11,8 +10,8 @@ const ExperiencesPage: React.FC = () => {
             <SideBar />
             <div className="w-full overflow-auto">
                 <About />
-                <ProjectsList />
                 <ExperiencesList />
+                <ProjectsList />
             </div>
         </div>
     );
