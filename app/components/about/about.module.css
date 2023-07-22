@@ -1,13 +1,13 @@
 .highlight-minecraft:hover {
-    cursor: url('/path/to/minecraft-cursor.png'), auto;
+    cursor: url('/assets/cursors/minecraft-cursor.cur'), auto;
 }
 
 .highlight-mods:hover {
-    cursor: url('/path/to/mods-cursor.png'), auto;
+    cursor: url('/assets/cursors/mods-cursor.cur'), auto;
 }
 
 .highlight-coding:hover {
-    cursor: url('/path/to/coding-cursor.png'), auto;
+    cursor: url('/assets/cursors/coding-cursor.cur'), auto;
 }
 
 .highlight-vr:hover {
