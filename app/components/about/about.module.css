@@ -11,17 +11,17 @@
 }
 
 .highlight-vr:hover {
-    cursor: url('/path/to/vr-cursor.png'), auto;
+    cursor: url('/assets/cursors/vr-cursor.cur'), auto;
 }
 
 .highlight-ai:hover {
-    cursor: url('/path/to/ai-cursor.png'), auto;
+    cursor: url('/assets/cursors/ai-cursor.cur'), auto;
 }
 
 .highlight-webdev:hover {
-    cursor: url('/path/to/webdev-cursor.png'), auto;
+    cursor: url('/assets/cursors/webdev-cursor.cur'), auto;
 }
 
 .highlight-f1:hover {
-    cursor: url('/path/to/f1-cursor.png'), auto;
+    cursor: url('/assets/cursors/f1-cursor.cur'), auto;
 }
