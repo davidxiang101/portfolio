@@ -14,15 +14,9 @@ export const projects: ProjectProps[] = [
         tags: ['Python', 'Pandas', 'Matplotlib', 'LiDAR']
     },
     {
-        name: 'E-Commerce Website',
+        name: 'TeeTaste',
         description: 'Developed a full-featured e-commerce website with a custom built shopping cart, user authentication, and product management. Integrated with Stripe for payment processing.',
         link: 'https://www.yoursite.com/',
         tags: ['React', 'Node.js', 'MongoDB', 'Express', 'Stripe']
-    },
-    {
-        name: 'AI Chatbot',
-        description: 'Implemented an AI chatbot that uses machine learning algorithms to understand and respond to natural language inputs.',
-        link: 'https://github.com/YourGithubUsername/AIChatbot',
-        tags: ['Python', 'TensorFlow', 'Natural Language Processing', 'Chatbot']
     },
 ];
