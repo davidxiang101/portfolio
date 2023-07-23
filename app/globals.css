@@ -60,3 +60,16 @@ body {
   transition: background-position 500ms ease, transform 500ms ease;
   width: 100%;
 }
+
+.card a {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  z-index: 0;
+  transition: color 0.1s, z-index 0.1s 0.1s;
+}
+
+.card:hover a {
+  color: #fff;
+  z-index: 2;
+}
