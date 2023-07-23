@@ -3,7 +3,7 @@ import Link from 'next/link';
 
 const Footer: React.FC = () => {
     return (
-        <footer className="mt-12 flex flex-col items-center justify-center w-full text-center p-8 bg-sky-950 text-sm">
+        <footer className="p-8 pt-36 flex flex-col items-center justify-center w-full text-center bg-sky-950 text-sm">
             <p className="w-1/2 text-gray-500 dark:text-gray-300">
                 Thanks for checking out my portfolio. This project was designed using
                 {" "}
