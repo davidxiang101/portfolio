@@ -34,6 +34,6 @@ export const experiences: ExperienceProps[] = [
 		role: 'Undergraduate Researcher',
 		company: 'Cavalier Autonomous Racing',
 		link: "https://autonomousracing.dev/",
-		description: 'I developed RESTful APIs using Express and Node.js.',
+		description: 'Played a pivotal role in developing the open-source ROS F1/10 Racing Simulator and DeepRacing AI Framework, key tools enabling extensive testing and improvement of our autonomous racing car model. The team\'s collective efforts resulted in being recognized as the fastest American team at the esteemed Indy Autonomous Challenge.',
 		tags: ['Unity', 'C#', 'VR']
 	},];
