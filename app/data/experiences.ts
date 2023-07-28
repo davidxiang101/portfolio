@@ -25,7 +25,7 @@ export const experiences: ExperienceProps[] = [
 		role: 'Undergraduate Researcher',
 		company: 'ORCL Lab',
 		link: "https://engineering.virginia.edu/omni-reality-and-cognition-lab",
-		description: 'I developed RESTful APIs using Express and Node.js.',
+		description: 'As a key contributor to a vital research initiative aimed at enhancing pedestrian safety, I was responsible for creating a VR simulator using Unity, which mirrored real-world downtown traffic scenarios. My role involved developing and testing a multitude of bike lane configurations within this virtual reality environment. This project allowed us to utilize the power of simulation technology to explore and propose optimal urban planning solutions, thereby improving overall safety.',
 		tags: ['Unity', 'C#', 'VR']
 	},
 	{
