@@ -7,7 +7,7 @@ export const experiences: ExperienceProps[] = [
 		role: 'Software Engineering Intern',
 		company: 'Epic',
 		link: 'https://www.epic.com/',
-		description: 'Imagine having to manually process 1.2 million receipts a year for trip reimbursements. Sounds tedious, right? Well, I had the privilege of leading a project that drastically simplified this process. I developed an AI-powered OCR model that took over the job of reading receipts, reducing input time by 80% and cut down on errors by 30%. On top of that, I got to flex my skills in Vue.js and .NET, crafting a slick front-end interface.',
+		description: 'Imagine having to manually process 1.2 million receipts a year for trip reimbursements. Sounds tedious, right? Well, I had the privilege of leading a project that drastically simplified this process. I developed an AI-powered OCR model that took over the job of reading receipts, reducing input time by 43% and cut down on user errors by 67%. On top of that, I got to flex my skills in Vue.js and .NET, crafting a slick front-end interface.',
 		tags: ['.NET', 'Vue', 'Azure', 'Typescript', 'Javascript', 'C#', 'SQL']
 	},
 	{
@@ -34,6 +34,6 @@ export const experiences: ExperienceProps[] = [
 		role: 'Undergraduate Researcher',
 		company: 'Cavalier Autonomous Racing',
 		link: "https://autonomousracing.dev/",
-		description: 'Developed the open-source ROS F1/10 Racing Simulator and DeepRacing AI Framework. These tools facilitated comprehensive testing and enhancement of our autonomous racing car model. Our team\'s efforts culminated in being honored as the fastest American team at the prestigious Indy Autonomous Challenge.',
+		description: 'Pioneered new additions to the ROS F1/10 and IAC Racing Simulators, substantially improving simulation fidelity to real- world racing conditions and boosting the effectiveness of our autonomous racecar. Competed in the Indy Autonomous Challenge, achieving the accolade of Fastest American Team',
 		tags: ['Unity', 'C#', 'VR']
 	},];
