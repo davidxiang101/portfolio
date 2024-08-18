@@ -14,9 +14,9 @@ export const projects: ProjectProps[] = [
         tags: ['Swift', 'SwiftUI', 'IoT']
     },
     {
-        name: 'LiDAR Data Visualization',
-        description: 'Created a comprehensive data visualization tool for interpreting LiDAR data. The tool features 3D visualization, easy navigation, and detailed analysis capabilities.',
-        link: '',
-        tags: ['Python', 'Pandas', 'Matplotlib', 'LiDAR']
+        name: 'F1/10 Autonomous Race Car',
+        description: 'One first in the F1/10 competition at the University of Virginia. Developed a ROS-based autonomous 1/10th scale race car that uses LiDAR and camera data to race through a track.',
+        link: 'https://github.com/davidxiang101/race_ws',
+        tags: ['Python', 'ROS', 'LiDAR']
     },
 ];
